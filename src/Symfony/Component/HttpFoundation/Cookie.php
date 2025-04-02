@@ -28,6 +28,7 @@ class Cookie
     private $raw;
     private $sameSite;
 
+    const SAMESITE_NONE = 'none';
     const SAMESITE_LAX = 'lax';
     const SAMESITE_STRICT = 'strict';
 
